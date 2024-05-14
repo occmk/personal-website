@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #e0e0e0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>个人网页</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>个人简介</h2>
+            <p>本人逻辑清晰，擅长沟通，有较强的个人分析能力和团队协作能力。擅长运用各种调查方法收集用户痛点，分析结果以明确用户需求，提出解决方案优化产品设计。</p>
+        </section>
+        <section>
+            <h2>教育背景</h2>
+            <ul>
+                <li>某某大学，某某专业，学士学位，201X - 201X</li>
+                <li>某某大学，某某专业，硕士学位，201X - 201X</li>
+            </ul>
+        </section>
+        <section>
+            <h2>工作经历</h2>
+            <ul>
+                <li>某某公司，某某职位，201X - 201X</li>
+                <li>某某公司，某某职位，201X - 201X</li>
+            </ul>
+        </section>
+        <section>
+            <h2>项目展示</h2>
+            <ul>
+                <li>项目A：简要描述项目内容及个人贡献。</li>
+                <li>项目B：简要描述项目内容及个人贡献。</li>
+            </ul>
+        </section>
+        <section>
+            <h2>技能</h2>
+            <ul>
+                <li>技能A</li>
+                <li>技能B</li>
+                <li>技能C</li>
+            </ul>
+        </section>
+        <section>
+            <h2>联系方式</h2>
+            <p>邮箱：<a href="mailto:example@example.com">example@example.com</a></p>
+            <p>LinkedIn：<a href="https://www.linkedin.com/in/example" target="_blank">https://www.linkedin.com/in/example</a></p>
+        </section>
+    </div>
+</body>
+</html>
